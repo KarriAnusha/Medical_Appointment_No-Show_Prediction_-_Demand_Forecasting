@@ -11,8 +11,6 @@ dist/
 build/
 .ipynb_checkpoints/
 *.pkl
-*.joblib
-data/*.csv
 data/*.xlsx
 .DS_Store
 Thumbs.db
