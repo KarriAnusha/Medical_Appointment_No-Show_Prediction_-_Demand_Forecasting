@@ -3,5 +3,6 @@ services:
     name: medical-appointment-analytics
     runtime: docker
     plan: starter
-    autoDeploy: true
+    region: singapore
+    autoDeployTrigger: commit
     healthCheckPath: /_stcore/health
