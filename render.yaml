@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: medical-appointment-analytics
+    runtime: docker
+    plan: starter
+    autoDeploy: true
+    healthCheckPath: /_stcore/health
